@@ -262,7 +262,7 @@ h1 {
     display: block;
     margin: 0 0 24px 0;
     padding: 3px;
-    background: rgb(205, 205, 205);
+    background: rgb(39, 39, 39);
     transition: all 200ms;
 }
 
@@ -311,10 +311,13 @@ h1 {
     opacity: 1;
 }
   
-.wall-item:hover{
+
+.wall-item:hover {
+    background: rgb(255,247,0) ;
     transform: translateY(-6px);
     transition: all 200ms;
 }
+
   
 .wall-item > img{
     display: block;
@@ -348,6 +351,10 @@ h1 {
     float: left;
     padding: 0 12px;
     box-sizing: border-box;
+}
+
+.p{
+  color:white;
 }
   
 @media(max-width: 1940px){
